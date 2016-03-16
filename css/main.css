@@ -1,10 +1,10 @@
 html {
   font-family: "Open Sans", sans-serif;
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 .quest-bold {
@@ -44,21 +44,26 @@ html {
   width: 25%;
   padding: 0;
   margin: 0;
+  float: left;
 }
 
 .quest-card {
   background-color: #e2e2e2;
   width: 25%;
+  display: block;
+  float: left;
 }
 
 .dragon-card {
   background-color: #aaa;
   width: 25%;
+  float: left;
 }
 
 .speed-card {
   background-color: #999;
   width: 25%;
+  float: left;
 }
 
 .btn {
@@ -69,11 +74,14 @@ html {
   float: left;
 }
 
+.btn-small {
+  background-color: #333;
+}
+
 .btn:hover {
   background-color: #f2f2f2;
 }
 
 img {
   width: 25%;
-  display: block;
 }
