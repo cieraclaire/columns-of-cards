@@ -1,0 +1,79 @@
+html {
+  font-family: "Open Sans", sans-serif;
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+.quest-bold {
+  font-weight: bold;
+}
+
+.tabatha-italic {
+  font-style: italic;
+}
+
+.btn {
+  text-decoration: none;
+}
+
+.dinosaur-bold {
+  font-weight: bold;
+}
+
+.dinosaur-italic {
+  font-style: italic;
+}
+
+.dragon-italic {
+  font-style: italic;
+}
+
+.speed-bold {
+  font-weight: bold;
+}
+
+.speed-italic {
+  font-style: italic;
+}
+
+.dinosaur-card {
+  background-color: #ccc;
+  width: 25%;
+  padding: 0;
+  margin: 0;
+}
+
+.quest-card {
+  background-color: #e2e2e2;
+  width: 25%;
+}
+
+.dragon-card {
+  background-color: #aaa;
+  width: 25%;
+}
+
+.speed-card {
+  background-color: #999;
+  width: 25%;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  border-radius: 0.30rem;
+  padding: 0.55rem;
+  float: left;
+}
+
+.btn:hover {
+  background-color: #f2f2f2;
+}
+
+img {
+  width: 25%;
+  display: block;
+}
